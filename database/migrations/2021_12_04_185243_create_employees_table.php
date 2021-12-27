@@ -17,12 +17,14 @@ class CreateEmployeesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('dob');
+            $table->string('age');
             $table->string('job');
             $table->string('salary');
             $table->string('department');
             $table->string('role');
             $table->string('residence');
             $table->string('gender');
+            $table->string('biography');
             $table->timestamps();
         });
     }
